@@ -1,4 +1,12 @@
 # depslib dependency file v1.0
-1743445502 source:c:\users\bouzitou marina rose\desktop\c++\application gestion d'une librairie\main.cpp
+1791892283 source:c:\users\bouzitou marina rose\desktop\c++\application gestion d'une librairie\main.cpp
 	<iostream>
+	"Livre.h"
+
+1791889785 c:\users\bouzitou marina rose\desktop\c++\application gestion d'une librairie\livre.h
+	<iostream>
+
+1791891703 source:c:\users\bouzitou marina rose\desktop\c++\application gestion d'une librairie\livre.cpp
+	<iostream>
+	"Livre.h"
 

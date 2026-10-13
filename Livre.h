@@ -22,10 +22,10 @@ public :
     string getAuteur();
     double getPrix();
     int getQuantite();
-    void setTitre();
-    void setAuteur();
-    void setPrix();
-    void setQuantite();
+    void setTitre(string nouveautitre);
+    void setAuteur(string nouvelauteur);
+    void setPrix(double nouveauprix);
+    void setQuantite(int nouvelquantite);
     void afficher();
 };
 

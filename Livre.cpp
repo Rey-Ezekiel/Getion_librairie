@@ -35,6 +35,37 @@ int Livre::getQuantite(){
     return quantite;
 }
 //Les méthodes setters;
-void Livre::setTitre(){
-
+void Livre::setTitre(string nouveautitre){
+    this->titre=nouveautitre;
+}
+void Livre::setAuteur(string nouvelauteur){
+    this->auteur=nouvelauteur;
+}
+void Livre::setPrix(double nouveauprix){
+    if(nouveauprix<0)
+    {
+        cout << "Ce prix n'est pas valide" << endl;
+    }
+    else
+    {
+       this->prix=nouveauprix;
+    }
+}
+void Livre::setQuantite(int nouvelquantite){
+    if(nouvelquantite<0)
+    {
+        cout << "Cette quantite n'est pas valide" << endl;
+    }
+    else
+    {
+        this->quantite=nouvelquantite;
+    }
+}
+void Livre::afficher(){
+    cout << "------------------------------" <<endl;
+    cout << "L'ID du livre : " << id <<endl;
+    cout << "Son titre : " << titre <<endl;
+    cout << "Son auteur : " << auteur <<endl;
+    cout << "Son prix : " << prix <<endl;
+    cout << "Nombre d'exemplaire : " << quantite <<endl;
 }
